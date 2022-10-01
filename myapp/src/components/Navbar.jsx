@@ -1,61 +1,45 @@
 import React from 'react'
-import { FaCat,AiOutlineHeart } from 'react-icons/fa';
+import {FaRegHeart} from 'react-icons/fa';
+import {BiUser} from 'react-icons/bi';
+import {BiSearch} from 'react-icons/bi';
+import {BsBag} from 'react-icons/bs';
 // import "./App.css"
 
-let style=
-{
-  
-    display: "flex",
-    justifyContent:" space-Between"
-} 
-let feedSection={
-  display:"flex",
-  justifyContent:"spaceBetween",
-  alignItem:"center",
-  gap:"50px",
-  marginTop:"20px",
-  marginLeft:"-280px"
-}
-let image=
-{
-  width:"200px",
-  height:"60px",
-  margin:"auto",
-  
-}
-
- let logoSection=
-{
-  display:"flex",
-  justifyContent:"center",
-  alignItem:"center",
-  marginTop:"20px",
- marginLeft:"150px"
-
-}
-let iconSection=
-{
-  marginTop:"40px",
-  marginRight:"100px"
-}
 
 const Navbar = () => {
   return (
     <div>
-        <div className="container" style={style}>
-         <div className='logoSection' style={logoSection}>
-          <img className='image' style={image} src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/200x80black.png"></img>
+        <div className="container" style={{
+ display:"flex",
+ gap:"30px"
+  }}>
+         <div className='logoSection' style={{  display:"flex",
+         width:"400px"}}>
+          <img className='image' style={{ width:"200px",
+  height:"60px",
+  margin:"auto"}} src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/200x80black.png"></img>
          </div>
-         <div className='feedSection' style={feedSection}>
-          <h5>Home</h5>
-          <h5>About Us</h5>
-          <h5>Shop</h5>
-          <h5>Categories</h5>
-          <h5>Contact Us</h5>
+         <div className='feedSection' style={{ 
+          display:"flex",
+         justifyContent:"space-evenly",
+         alignItems:"center",
+        
+         width:"800px"}}>
+         <div><h4>Home</h4></div> 
+          <div><h4>About Us</h4></div>
+          <div><h4>Shop</h4></div>
+          <div><h4>Categories</h4></div>
+          <div><h4>Contact Us</h4></div>
          </div>
-         <div className='iconSection' style={iconSection}>
-              <div><FaCat/></div>
-              <div></div>
+         <div className='iconSection' style={{    display:"flex",
+         justifyContent:"space-evenly",
+         alignItems:"center",
+        
+         width:"200px" }}>
+              <div><BiSearch/></div>
+              <div><BiUser/></div>
+              <div><FaRegHeart/></div>
+              <div><BsBag/></div>
               {/* <div><AiOutlineHeart/></div> */}
               <div></div>
          </div>
