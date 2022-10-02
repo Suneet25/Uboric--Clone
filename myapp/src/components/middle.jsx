@@ -9,7 +9,7 @@ const  container=
     margin:"auto",
 marginTop:"20px",
 gap:"20px",
-border:"2px solid black"
+
 }
 
 

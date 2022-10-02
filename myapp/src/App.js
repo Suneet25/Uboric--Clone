@@ -6,6 +6,7 @@ import { Sliding } from './components/sliding';
 import { Middle } from './components/middle';
 import { Abovefooter } from './components/abovefooter';
 import { Footer } from './components/footer';
+import Login from './components/login';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
      <Middle/>
      <Abovefooter/>
      <Footer/>
+     {/* <Login/> */}
     </div>
   );
 }
