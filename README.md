@@ -67,9 +67,7 @@ I tried my best to clone the website from scratch based on the knowledge gained 
 
      <img width="960" alt="CartPage" src="https://user-images.githubusercontent.com/85006343/194061378-f7b965c7-a3f7-463b-9a6d-8eef6899d063.png">
 
-- ## Checkout page
 
-     <img width="959" alt="CheckoutPage" src="https://user-images.githubusercontent.com/85006343/194061458-8775b9ff-12ec-4ae2-bfd7-7a98493f06b7.png">
 
 
 
